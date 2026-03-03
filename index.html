@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMC - Daily Work Slip</title>
+  <style>
+    :root {
+      --ink: #1f3b8f;
+      --line: #3555a8;
+      --light: #f8faff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f0f2f8;
+      color: var(--ink);
+    }
+
+    .sheet {
+      max-width: 980px;
+      margin: 0 auto;
+      background: white;
+      border: 2px solid var(--line);
+      padding: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    td, th {
+      border: 1px solid var(--line);
+      padding: 8px 6px;
+      vertical-align: middle;
+      font-size: 15px;
+    }
+
+    .noborder {
+      border: none !important;
+    }
+
+    .topline {
+      font-weight: 700;
+      letter-spacing: .5px;
+      text-align: center;
+    }
+
+    .small {
+      font-size: 12px;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    .brand {
+      font-size: 40px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    .company {
+      text-align: center;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.05;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .right {
+      text-align: right;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .fill {
+      color: #6f80b8;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    .field {
+      height: 56px;
+    }
+
+    .work-area {
+      height: 140px;
+    }
+
+    .sign {
+      height: 72px;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    @media print {
+      body { background: white; padding: 0; }
+      .sheet { border-width: 1px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <table>
+      <tr>
+        <td colspan="2" class="topline">VILOGANATHAN</td>
+        <td colspan="4" class="topline">SMC</td>
+        <td colspan="2" class="right">Call : 9568442430<br>9025604575</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="brand">SMC</td>
+        <td colspan="4" class="company">SRI MAGARAJOTHI CIVIL</td>
+        <td colspan="2" class="sign">102</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="noborder"></td>
+        <td colspan="4" class="small">Bungalow Main, Golt (Ar), Erda (Po) 633606.</td>
+        <td colspan="2" class="noborder"></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="noborder"></td>
+        <td colspan="4" class="subtitle">BREAKING WORK</td>
+        <td colspan="2" class="noborder"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><b>Date</b> <span class="fill">...............................</span></td>
+        <td colspan="2"><b>Working Site :</b> <span class="fill">...............................</span></td>
+        <td colspan="2"><b>Machine No :</b> <span class="fill">...............................</span></td>
+        <td colspan="2"><b>Working Area</b></td>
+      </tr>
+
+      <tr>
+        <td><b>Starting Time</b></td>
+        <td><b>Closing Time</b></td>
+        <td><b>Reset Hour</b></td>
+        <td><b>Total Hour</b></td>
+        <td colspan="4" class="work-area"></td>
+      </tr>
+
+      <tr>
+        <td class="field"></td>
+        <td class="field"></td>
+        <td class="field"></td>
+        <td class="field"></td>
+        <td colspan="4" class="field"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><b>Total Hours</b></td>
+        <td colspan="2"><b>Rate/hour</b></td>
+        <td colspan="4"><b>Total Amount</b></td>
+      </tr>
+
+      <tr>
+        <td colspan="4" class="field"></td>
+        <td colspan="4" class="field"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4"><b>Project Engineer</b></td>
+        <td colspan="4"><b>Site Engineer</b></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
